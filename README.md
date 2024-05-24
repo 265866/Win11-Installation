@@ -1,5 +1,5 @@
 # Win11-Installation
-Installs and debloats Windows11
+Installs apps and debloats Windows11
 
 ## Usage
 1. Download the install.bat file
