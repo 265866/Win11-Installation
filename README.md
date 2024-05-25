@@ -8,6 +8,8 @@ Installs apps and debloats Windows11
 2. Run as a regular user, accept admin perms when necessary
 3. Once it's done, run again as admin to debloat Windows 11
 
+(If you would just like to debloat, you will have to install git manually and run the bat file as admin)
+
 ## Info
 
 This project uses [Win11Debloat](https://github.com/Raphire/Win11Debloat) to debloat
