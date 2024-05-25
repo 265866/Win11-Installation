@@ -42,9 +42,13 @@ echo Scoop installation completed.
 
 echo Running WinGet/more install commands...
 
-echo Installing xpipe...
-winget install xpipe-io.xpipe -h -s winget
-echo xpipe installation completed.
+echo Installing WinSCP...
+winget install -e --id WinSCP.WinSCP -h
+echo WinSCP installation completed.
+
+echo Installing Putty...
+winget install -e --id PuTTY.PuTTY
+echo Putty installation completed.
 
 echo Installing Git...
 winget install -e --id Git.Git -h
