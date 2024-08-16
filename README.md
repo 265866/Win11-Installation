@@ -1,4 +1,4 @@
-# Win11-Postinstall-Scripts
+# Win11-Postinstall-Script
 
 A script to install essential applications and debloat Windows 11.
 
