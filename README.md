@@ -1,46 +1,48 @@
 # Win11-Installation
 
-Installs apps and debloats Windows11
+A script to install essential applications and debloat Windows 11.
 
 ## Usage
 
-1. Download the install.bat file
-2. Run as a regular user, accept admin perms when necessary
-3. Once it's done, run again as admin to debloat Windows 11
+1. **Download the `install.bat` file.**
+2. **Run the script as a regular user.** Accept admin permissions when prompted, this will only install programs
+3. **Run the script again as admin** this will debloat Windows 11
 
-(If you would just like to debloat, you will have to install git manually and run the bat file as admin)
+*If you only want to debloat, manually install Git and run the `install.bat` file as an administrator.*
 
-## Info
+## Applications Installed
 
-This project uses [Win11Debloat](https://github.com/Raphire/Win11Debloat) to debloat
+This script installs the following applications:
 
-This project installs the following applications:
+1. **WinSCP** - SFTP client
+2. **PuTTY** - SSH client
+3. **Git** - Command-line Git client
+4. **Discord** - A "Group chat that’s all fun & games"
+5. **IntelliJ IDEA** - Java development IDE
+6. **DataGrip** - JetBrains database management tool
+7. **Arc** - Browser (considering switching to Firefox)
+8. **Java** - Programming language
+9. **JDK 7 & JDK 17** - For Minecraft mod development
+10. **Visual Studio Code** - Code editor
+11. **Visual Studio** - IDE (required by various tools)
+12. **GeForce Experience** - NVIDIA graphics drivers and utilities
+13. **Lunar Client** - Minecraft client
+14. **Rust** - Programming language
+15. **PowerToys** - Microsoft’s suite for power users
+16. **OBS** - Recording/streaming software
+17. **Notion** - Notes and task management
+18. **VirtualBox** - Virtualization software
+19. **WinDirStat** - Disk usage analysis tool
+20. **WireGuard** - VPN client
+21. **Python 3.12** - Programming language
+22. **Logitech G Hub** - Software for Logitech hardware
+23. **Telegram** - Basically if you're doing shady shit
+24. **Rufus** - USB flashing tool
+25. **Steam** - Gaming platform
+26. **Bun** - A Node.js alternative
+27. **NVM** - Node.js version manager
+28. **Node.js** - For when Bun isn’t enough
 
-1) winscp (sftp client)
-2) putty (ssh client)
-3) git (git command line)
-4) discord (hey look you already have this!! [i hope])
-5) intellij idea (java development)
-6) DataGrip (JetBrains' tool for databases)
-7) Arc (browser [may replace with firefox i keep going back and forth pls help])
-8) java (programming language)
-9) jdk 7 & jdk 17 (mc mod dev stuff)
-10) visual studio code (to do coding :pepeHacker:)
-11) visual studio (because a lot of stuff relies on this being installed for some reason)
-12) geforce experience (graphics card drivers)
-13) lunar client (playing bedwars hehehe)
-14) rust (programming language)
-15) powertoys (microsoft’s suite for power users)
-16) obs (recording/streaming software)
-17) notion (use it to take notes and todo lists and whatnot)
-18) virtualbox (creating virtual machines)
-19) windirstat (seeing where da big files at)
-20) wireguard (vpn client)
-21) python 3.12 (programming language)
-22) logitech g hub (software for logitech hardware)
-23) telegram (discord but more private)
-24) rufus (flashes usb sticks with isos)
-25) steam (gaming W [fuck epic games])
-26) bun (‘the new nodejs alternative’)
-27) nvm (nodejs version manager)
-28) nodejs (for when bun doesn't work)
+## Credits
+
+This project uses [Win11Debloat](https://github.com/Raphire/Win11Debloat) for the debloating process.
